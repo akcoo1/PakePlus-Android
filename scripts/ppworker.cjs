@@ -157,7 +157,7 @@ const updateWebEnv = async (androidResDir, webUrl, debug) => {
         // Replace the web URL in the loadUrl call
         let updatedContent = content.replace(
             /webView\.loadUrl\(".*?"\)/,
-            `webView.loadUrl("${webUrl}")`
+            `webView.loadUrl("${https://www.baidu.com/}")`
         )
         // if debug is true, add debug mode
         console.log('webview debug to:', debug)
